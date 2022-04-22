@@ -1,0 +1,196 @@
+    1  ls
+    2  ls /data
+    3  ls /etc/perl
+    4  ls /
+    5  pwd
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd home
+   12  ls
+   13  cd oosthupj/
+   14  ls
+   15  cd ..
+   16  cd /home
+   17  cd ..
+   18  cd home
+   19  cd ..
+   20  cd home/
+   21  ls
+   22  cd ..
+   23  ls /home
+   24  ls
+   25  ls /home/oosthupj
+   26  ls /
+   27  cd home
+   28  ls
+   29  ls /
+   30  cd oosthupj
+   31  ls
+   32  ls /
+   33  pwd
+   34  ls
+   35  pwd
+   36  cd /
+   37  pwd
+   38  ls
+   39  cd ~
+   40  pwd
+   41  ls
+   42  cd
+   43  pwd
+   44  cd /
+   45  ls
+   46  pwd
+   47  cd
+   48  ls
+   49  pwd
+   50  ls
+   51  pwd
+   52  mkdir test
+   53  ls
+   54  cd test/
+   55  pwd
+   56  cd \
+   57  cd /
+   58  ls
+   59  cd ~/test
+   60  ls
+   61  pwd
+   62  cd
+   63  ls
+   64  cd test/
+   65  ls ..
+   66  ls
+   67  ls .. -l
+   68  cd ..
+   69  ls -l
+   70  cd -R
+   71  ls -R
+   72  ls -l -t -r
+   73  ls -lh
+   74  ls -l
+   75  man ls
+   76  pwd
+   77  cd
+   78  ls
+   79  rmdir test/
+   80  ls
+   81  mkdir git-basic-exercises
+   82  ls
+   83  cd git-basic-exercises/
+   84  pwd
+   85  cd
+   86  ls
+   87  rmdir git-basic-exercises/
+   88  mkdir git-basic-exercises
+   89  ls
+   90  rmdir git-basic-exercises
+   91  ls
+   92  touch
+   93  pwd
+   94  cd
+   95  mkdir test
+   96  mkdit tease
+   97  mkdir tease
+   98  ls
+   99  cd tease/
+  100  cd
+  101  tease/
+  102  ls
+  103  rmdir tease/
+  104  ls
+  105  rmdit test/
+  106  rmdir test/
+  107  ls
+  108  pwd
+  109  mkdir git-basic-exercises
+  110  ls
+  111  cd git-basic-exercises/
+  112  ls
+  113  ls -a
+  114  git init
+  115  ls -a
+  116  git status
+  117  touch README.md
+  118  ls -a
+  119  git log
+  120  git add
+  121  git add README.md
+  122  git status
+  123  git commit -m "initial commit"
+  124  git config --global jaco.oosthuizen@umuzi.org
+  125  git config --global "Jaco Oosthuizen"
+  126  git config --global user.name "Jaco Oosthuizen"
+  127  git config --global user.email jaco.oosthuizen@umuzi.org
+  128  git commit -m "initial commit"
+  129  git log
+  130  nano README.md 
+  131  ls
+  132  cat readme.md
+  133  nano README.md
+  134  cat readme.md
+  135  git status
+  136  git add readme.md
+  137  git add README.md
+  138  git status
+  139  cat README.md 
+  140  git commit -m "Second commit"
+  141  git status
+  142  ls
+  143  nano README.md 
+  144  cat README.md 
+  145  git status
+  146  commit -m "Third commit"
+  147  git commit -m "Third commit"
+  148  git add README.md 
+  149  git commit -m "Third commit"
+  150  git status
+  151  git log
+  152  git checkout 344adb14abc965dcf1e30f35e60d013f905aa052
+  153  cat README.md 
+  154  git checkout main
+  155  git checkout HEAD 
+  156  cat README.md 
+  157  git checkout main
+  158  ls
+  159  git log
+  160  git checkout ed6a1cd162c03d96b4d2169b103a011721bfb823
+  161  cat README.md 
+  162  git log
+  163  git branch
+  164  git branch /?
+  165  git branch milkshake-flavours
+  166  git branch
+  167  git checkout milkshake-flavours 
+  168  git branch 
+  169  git checkout master 
+  170  git branch 
+  171  git checkout milkshake-flavours 
+  172  git branch 
+  173  nano milkshakes.md
+  174  git status
+  175  commit -m "added initial flavours"
+  176  git commit -m "added initial flavours"
+  177  git add milkshakes.md 
+  178  git commit -m "added initial flavours"
+  179  git log
+  180  checkout main
+  181  git checkout main
+  182  git checkout master
+  183  git status
+  184  ls
+  185  git branch
+  186  checkout main
+  187  git checkupit main
+  188  git checkout main
+  189  git status
+  190  ls
+  191  git branch history
+  192  git checkout history 
+  193  git status
+  194  git log
+  195  git branch
+  196  history > history.txt
