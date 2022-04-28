@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-booya
-=======
-Readme file
+readme file
 Third commit
 randon changes
-
->>>>>>> master
